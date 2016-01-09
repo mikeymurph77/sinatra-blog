@@ -6,6 +6,7 @@ gem "activerecord"
 gem "sinatra-activerecord"
 gem 'sinatra-flash'
 gem 'sinatra-redirect-with-flash'
+gem 'sinatra-captcha'
 
 group :development do
   gem 'shotgun'
