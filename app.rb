@@ -53,7 +53,6 @@ post "/posts" do
   end
 end
 
-
 # view post
 get "/posts/:id" do
   @post = Post.find(params[:id])
@@ -70,5 +69,5 @@ end
 put "/posts/:id" do
   @post = Post.find(params[:id])
   @post.update(params[:post])
-  redirect "/posts/#{@post.id}"
+  redirect "/posts/#{@post.id}", :notice => 'Your post has been updated. (This message will disapear in 4 seconds.)'
 end

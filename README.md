@@ -1,10 +1,7 @@
----
 # Sinatra Blog
 
----
 ### This is just a fun tutorial I found from [Michael Herman's blog](http://mherman.org/)
 **Article:** [Designing With Class: Sinatra + Postgresql + Heroku](http://mherman.org/blog/2013/06/08/designing-with-class-sinatra-plus-postgresql-plus-heroku/).
-
 
 ## Purpose
 Lately I've been thinking of some fun silly apps to create, but felt using Rails might be too clunky for the purpose of these tiny apps.
